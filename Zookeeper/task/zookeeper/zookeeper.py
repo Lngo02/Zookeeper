@@ -123,12 +123,10 @@ It looks like we will soon have more rabbits!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 # write your code here
-habitats = [camel, lion, deer, goose, bat, rabbit]
-
 user_input = input("Please enter the number of the habitat you would like to view: ")
 while (user_input != "exit"):
     desired_habitat = int(user_input)
     user_input = input("Please enter the number of the habitat you would like to view: ")
-    print(habitats[desired_habitat])
+    print(animals[desired_habitat])
 
 print("See you later!")
